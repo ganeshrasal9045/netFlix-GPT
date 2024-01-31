@@ -1,8 +1,11 @@
 import React from 'react'
+import BrowseNav from './BrowseNav'
 
 const Browse = () => {
   return (
-    <div>Browse</div>
+    <div>
+      <BrowseNav />
+    </div>
   )
 }
 
