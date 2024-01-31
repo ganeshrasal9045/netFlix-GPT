@@ -1,10 +1,10 @@
 import React from 'react'
-import BrowseNav from './BrowseNav'
+import Header from './Header'
 
 const Browse = () => {
   return (
     <div>
-      <BrowseNav />
+      <Header />
     </div>
   )
 }
