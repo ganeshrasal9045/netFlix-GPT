@@ -35,6 +35,9 @@
 - UsePopularMovies custom hook with Api call
 - UseTopRatedMovies custom hook with Api call
 - UseUpcomingMovies custom hook with Api call
+- GPT Search Page with Toggle Functionality
+- GPT Search Bar
+- ** Build Multi-Language feature for GPT Search Bar
 
 # Features
 - Login / Sign Up
