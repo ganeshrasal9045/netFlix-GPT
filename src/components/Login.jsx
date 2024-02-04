@@ -103,19 +103,20 @@ const Login = () => {
       <Header />
       <div className="absolute">
         <img
+          className="h-screen object-cover md:w-screen md:object-cover"
           src={NETFLIX_BG_IMG}
           alt="bg-img"
         />
       </div>
 
-      <div className=" absolute mx-auto right-0 left-0 top-20 bottom-auto  mt-40 w-full bg-black bg-opacity-80 rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
-        <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
+      <div className=" absolute mx-auto right-0 left-0 top-20 bottom-auto mt-20 w-full bg-black bg-opacity-80 rounded-lg shadow dark:border md:mt-5 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+        <div className="p-4 space-y-3 md:space-y-6 md:p-6">
           <h1 className="text-2xl font-bold leading-tight tracking-tight text-white md:text-2xl dark:text-white">
             {isSignInForm ? "Sign In" : "Sign Up"}
           </h1>
           <form
             onSubmit={(e) => e.preventDefault()}
-            className="space-y-4 md:space-y-6"
+            className="space-y-3 md:space-y-6"
           >
             {!isSignInForm && (
               <div>

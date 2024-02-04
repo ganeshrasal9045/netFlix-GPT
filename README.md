@@ -38,6 +38,15 @@
 - GPT Search Page with Toggle Functionality
 - GPT Search Bar
 - ** Build Multi-Language feature for GPT Search Bar
+- Get OpenAI API Key
+- Gpt Search Api call
+- fetched gptMoviesSuggestions from TMDB
+- created gptSlice added data
+- Reused MovieList component to make movieSuggestion Container
+- Memoization
+- Added .env file
+- Adding .env file to gitignore
+- Made App Responsive
 
 # Features
 - Login / Sign Up

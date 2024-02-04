@@ -14,12 +14,11 @@ const firebaseConfig = {
   storageBucket: "netflix-gpt-ea0a5.appspot.com",
   messagingSenderId: "1068391440727",
   appId: "1:1068391440727:web:9e89b91f72fef892a51e12",
-  measurementId: "G-YNVQ5QK04Y"
+  measurementId: "G-YNVQ5QK04Y",
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
-
 
 export const auth = getAuth();

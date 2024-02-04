@@ -5,12 +5,12 @@ import gptReducer from "../store/gptSlice";
 import configReducer from "../store/configSlice";
 
 const appStore = configureStore({
-    reducer:{
-        user: userReducer,
-        movies: moviesReducer,
-        gpt: gptReducer,
-        config: configReducer,
-    },
-})
+  reducer: {
+    user: userReducer,
+    movies: moviesReducer,
+    gpt: gptReducer,
+    config: configReducer,
+  },
+});
 
 export default appStore;
